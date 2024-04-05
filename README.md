@@ -1,11 +1,11 @@
 # DAPT: Distillation as an Alternative to Pre-Training
 
 This repo contains the original Pytorch implementation of the following paper:<br><br>
-[On the Surprising Efficacy of Distillation as an Alternative to Pre-Training Small Models]()  
+[On the Surprising Efficacy of Distillation as an Alternative to Pre-Training Small Models](https://arxiv.org/abs/2404.03263)  
  [Sean Farhat](https://sfarhat.github.io/), [Deming Chen](https://dchen.ece.illinois.edu) <br>
  University of Illinois, Urbana-Champaign   
  
-which appeared at the 5th Practical ML for Low Resource Settings ([PML4LRS](https://pml4dc.github.io/iclr2024/)) Workshop at ICLR 2024.
+which will appear at the 5th Practical ML for Low Resource Settings ([PML4LRS](https://pml4dc.github.io/iclr2024/)) Workshop at ICLR 2024.
 
 ## Step 0: Setting Paths
 
@@ -63,4 +63,12 @@ We have included a convenient `--timing` flag for all scripts that will run the 
 ## Citation
 
 ```
+@misc{farhat2024surprising,
+      title={On the Surprising Efficacy of Distillation as an Alternative to Pre-Training Small Models}, 
+      author={Sean Farhat and Deming Chen},
+      year={2024},
+      eprint={2404.03263},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
